@@ -1,0 +1,937 @@
+:root {
+    --primarycolor:brown;
+    --secondarycolor: whitesmoke;
+    --lightcolor: whitesmoke;
+    --bgcolor1:black;
+    --bgcolor2:rgb(23, 16, 16);
+    --padding: 8%;
+    --icon: color: rgb(15, 118, 109); 
+    --font-icon: 4rem;
+    
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 16px;
+    color: var(--secondarycolor)
+
+}
+
+
+
+h1{font-size: 4rem;
+    margin: 1.7rem 0;
+
+
+
+}
+
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+
+
+h3{
+    font-size: 1.5rem;
+
+}
+
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: var(--secondarycolor);
+}
+
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+
+}
+
+span{ color: var(--primarycolor);
+
+
+}
+
+p{
+    color: var(--secondarycolor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+/* .......................................................................................... */
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+nav{
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+    color: var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+
+
+/* .......................................................................................... */
+
+
+.content{
+    
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.container-texts{
+    position: relative;
+    bottom: 70px;
+
+}
+
+.content .container-texts h1 #M{
+    margin-left: 12rem;
+}
+
+.content .container-texts h1 #Mc{
+    color: var(--secondarycolor);
+}
+
+/* .......................................................................................... */
+
+
+
+
+.social{
+
+    margin-top: 3.5rem;
+
+}
+
+
+.social img{
+
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+    
+
+}
+
+/* .......................................................................................... */
+
+
+.home .container-images{
+    width: 45%;
+    height: 90%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.home .container-images img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* .......................................................................................... */
+
+.about{
+    background-color: var(--bgcolor2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about .container-images{
+    width: 35%;
+}
+
+.about .container-images img{
+    width: 90%;
+    
+}
+
+.about .container-texts{
+    width: 35%;
+}
+
+
+
+/* .......................................................................................... */
+
+
+
+
+.Education{
+    background-color: var(--bgcolor1);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+
+}
+
+
+.Education .education-img{
+    width: 35%;
+}
+
+.Education .education-img img{
+    width: 90%;
+}
+
+
+
+.fa-solid{
+    color: var(--primarycolor);
+}
+.Sp{
+    margin-left: 3rem;
+}
+
+
+
+.Sp b{
+    color: var(--primarycolor);
+
+}
+
+.Ep b{
+    color: orange;
+}
+#zinc{
+    color: rgb(222, 25, 153);
+}
+
+#EE{
+    margin-left: -4rem;
+}
+
+
+/* .......................................................................................... */
+
+
+
+.skillss{
+    background-color: var(--bgcolor2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+
+}
+
+
+.skillss .skills-img{
+    width: 35%;
+}
+
+
+.skillss .skills-img img{
+    width: 90%;
+}
+
+.fa-solid{
+    color: var(--primarycolor);
+}
+.Sp{
+    margin-left: 3rem;
+}
+
+
+
+.Sp b{
+    color: var(--primarycolor);
+
+}
+
+.Ep b{
+    color: orange;
+}
+
+
+#EE{
+    margin-left: -4rem;
+}
+
+
+/* .......................................................................................... */
+
+
+
+
+.Projects{
+    background-color: var(--bgcolor1);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+
+}
+
+
+.Projects .Project-img{
+    width: 35%;
+}
+
+.Projects .Project-img img{
+    width: 90%;
+}
+
+
+
+
+.Projects .Project .Ep, a{
+    color: brown;
+    text-decoration: none;
+    
+    transition: 0.4s;
+}
+
+.Projects .Project .Ep, a:hover{
+    color: var(--secondarycolor);
+    text-transform: none;
+    transform: scale(1.2);
+
+}    
+
+#EE{
+    margin-left:-4rem;
+}
+
+.Projects .Project .Ep, b{
+    color: var(--secondarycolor);
+}
+
+
+
+
+
+/* .......................................................................................... */
+
+.tools-so-far{
+    background-color: var(--bgcolor2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+
+
+.tools-so-far .container-images{
+    width: 35%;
+}
+
+.tools-so-far .container-images img{
+    width: 90%;
+}
+
+.tools-so-far .container-tools{
+    width: 50%;
+}
+
+.content-tools{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+
+
+}
+
+
+.tools-so-far .content-tools {
+    margin-left: 4rem;
+}
+
+
+
+.tool{
+    width: 110px;
+    height: 110px;
+    margin: 2rem 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tool img{
+    width: 60%;
+    
+}
+
+
+/* ............................................................................................................... */
+
+
+
+footer{
+
+    padding: 2rem var(--padding);
+    background-color: var(--bgcolor1);
+
+   
+
+}
+
+footer .the-foot{
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.the-foot h2{
+    align-items: flex-start;
+}
+
+
+.the-foot .ppp,.fa-linux{
+    font-size: 4rem;
+    padding: 1%
+
+
+}
+
+.the-foot .end b{
+    color: rgb(15, 118, 109) ;
+    font-size: 4rem;
+
+    
+
+
+}
+
+.the-foot .end .fa-feather{
+    color: whitesmoke;
+    font-size: 5rem;
+
+    
+
+
+}
+/* .......................................................................................... */
+/* .......................................................................................... */
+/* .......................................................................................... */
+/* .......................................................................................... */
+/* .......................................................................................... */
+
+
+
+@media screen and (min-device-width:995px) and (max-device-width: 1326px) {
+
+
+
+
+
+
+
+
+
+
+    nav {
+        padding-top: 1.5rem;
+        padding-left: var(--padding);
+        padding-right: 1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    h1 {
+        display: block;
+        font-size:2rem;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+
+    .home .container-images img {
+        position: absolute;
+        bottom: 0;
+        height: 79%;
+        left: 50%;
+        transform: translateX(-47%);
+    }
+
+
+    .container-texts {
+        position: relative;
+        bottom: 22px;
+    }
+
+
+
+
+    footer{
+
+        padding: 1rem ;
+        background-color: var(--bgcolor1);
+    
+       
+    
+    }
+
+
+  
+
+
+
+}
+
+
+
+
+@media screen and (min-device-width:745px) and (max-device-width: 996px){
+
+
+
+
+
+    nav {
+        padding-top: 1.5rem;
+        padding-left: 1%;
+        padding-right: 1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0.5rem;
+    }
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    h1 {
+        display: block;
+        font-size:2rem;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+
+    .home .container-images img {
+        position: absolute;
+        bottom: 0;
+        height: 59%;
+        left: 50%;
+        transform: translateX(-47%);
+    }
+
+
+
+    .content {
+        flex-grow: 1;
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .Project{
+
+        align-items: center;
+    }
+
+
+
+    #EE{
+        display: inline-block block;
+        font-size: 3rem;
+
+
+
+        margin: 0 0 0 8px;
+    }
+
+
+    .container-texts {
+        position: relative;
+        bottom: 22px;
+    }
+
+
+
+
+
+    .tools-so-far .content-tools {
+        margin-left: 1rem;
+    }
+
+
+
+    .content-tools {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+    }
+
+
+
+
+    footer{
+
+        padding: 1rem ;
+        background-color: var(--bgcolor1);
+        justify-content: space-between;
+    
+       
+    
+    }
+
+
+    
+
+
+    .the-foot h2 {
+
+
+        font-size: 20px;
+        letter-spacing: 0.12rem;
+        cursor: pointer;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-device-width:499px) and (max-device-width: 745px){
+
+
+
+    .divname{
+        font-family: 'Great Vibes', cursive;
+
+        text-align: center;
+
+
+
+    }
+
+    .pexl{
+
+        font-size: 50px;
+
+
+
+    }
+
+
+    #w{
+        font-size: 50px;
+    }
+
+    #sspp i{
+        font-size: 50px;
+        color: whitesmoke;
+
+
+    }
+
+    .home .conta-images{
+        width: 45%;
+        height: 90%;
+        position: relative;
+        align-self: flex-end;
+    }
+    
+    .home .conta-images img{
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-99%);
+        
+    }
+
+
+
+
+
+
+
+   
+    #delul{
+        display: none;
+    }
+    
+
+
+    
+    
+
+    
+    .about .container-texts h1{
+
+        display: block;
+        font-size:20px;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+
+
+
+
+
+        
+    }
+
+
+
+    .about .container-texts p {
+        color: var(--secondarycolor);
+        letter-spacing: 1px;
+        line-height: 10px;
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+    h5{
+        font-size: 15px;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+    
+    }
+
+    
+
+
+    
+
+   
+
+
+
+    .content {
+        flex-grow: 1;
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .Project{
+
+        align-items: center;
+    }
+
+
+
+    #EE{
+        display: inline-block block;
+        font-size: 20px;
+        margin: 0 0 0 8px;
+    }
+
+
+
+
+    .Skills h1 {
+        font-size: 2rem;
+        margin: 1.7rem 0;
+    }
+
+
+    
+
+
+    p {
+        color: var(--secondarycolor);
+        letter-spacing: 1px;
+        line-height: 1rem;
+        font-size: 10px;
+    }
+
+
+    .container-texts {
+        position: relative;
+        bottom: 22px;
+    }
+
+
+
+
+    .tool{
+        width: 40px;
+        height: 40px;
+        margin: 10px 10px 10px 0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+
+
+
+    .tools-so-far .content-tools {
+        margin-left: 1rem;
+    }
+
+
+
+    .content-tools {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+
+
+    h1 {
+        font-size: 1rem;
+        margin: 1.7rem 0;
+    }
+
+
+
+   
+
+
+
+    footer{
+
+        padding: 1rem ;
+        background-color: var(--bgcolor1);
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        
+    
+       
+    
+    }
+
+
+    
+
+
+    .the-foot h2 {
+
+
+        font-size: 20px;
+        letter-spacing: 0.12rem;
+        cursor: pointer;
+    }
+
+
+
+
+}
+
