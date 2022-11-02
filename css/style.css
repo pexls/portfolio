@@ -1,7 +1,7 @@
 :root {
-    --primarycolor:brown;
-    --secondarycolor: whitesmoke;
-    --lightcolor: whitesmoke;
+    --primarycolor:maroon;
+    --secondarycolor: oldlace;
+    --lightcolor: oldlace;
     --bgcolor1:black;
     --bgcolor2:rgb(23, 16, 16);
     --padding: 8%;
@@ -68,6 +68,56 @@ span{ color: var(--primarycolor);
 
 }
 
+
+#san{
+
+    font-family: 'Great Vibes', cursive;
+    font-size: 55px;
+    
+
+}
+
+
+/* .sann{
+
+    margin-top: 10%;
+
+
+
+} */
+
+
+#R{
+
+    font-family: 'Great Vibes', cursive;
+    font-size: 37px;
+    color:oldlace;
+    /* margin-top: 10%; */
+    line-height: 18px;
+    padding-top: 105px;
+
+
+
+}
+
+
+#R span {
+    color: maroon;
+
+
+}
+
+
+
+
+
+
+
+.fa-address-card{
+
+    color: var(--primarycolor);
+}
+
 p{
     color: var(--secondarycolor);
     letter-spacing: 1px;
@@ -94,7 +144,7 @@ p{
 
 
 nav{
-    padding-top: 2.8rem;
+    padding-top: 1rem;
     padding-left: var(--padding);
     padding-right: var(--padding);
     display: flex;
@@ -387,7 +437,7 @@ nav ul li a:hover{
     padding: 2rem var(--padding);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row-reverse;
 
 }
@@ -513,6 +563,7 @@ footer .the-foot{
         justify-content: space-between;
         align-items: center;
     }
+    
 
     
     * {
@@ -570,6 +621,48 @@ footer .the-foot{
 
 
 @media screen and (min-device-width:745px) and (max-device-width: 996px){
+
+
+
+
+
+    #san{
+
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        
+    
+    }
+    
+    
+    .sann{
+    
+        margin-top: 10%;
+    
+    
+    
+    }
+    
+    
+    #R{
+    
+        font-family: 'Great Vibes', cursive;
+        font-size: 25px;
+        color:oldlace;
+        margin-top: 4%;
+    
+    
+    
+    }
+    
+    
+    #R span {
+        color: maroon;
+    
+    
+    }
+    
+    
 
 
 
